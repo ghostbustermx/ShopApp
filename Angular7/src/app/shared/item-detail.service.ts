@@ -18,7 +18,11 @@ const All_ARTICLES: ItemDetail[] = [
   {ItemID: 11, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
   {ItemID: 12, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
   {ItemID: 13, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
-  {ItemID: 14, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'}
+  {ItemID: 14, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
+  {ItemID: 15, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
+  {ItemID: 16, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
+  {ItemID: 17, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
+  {ItemID: 18, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'}
 ];
 
 @Injectable({
@@ -58,9 +62,7 @@ export class ItemDetailService {
     return this.http.delete(this.rootURL + '/Items/' + id)
   }
 
-  refreshList(){
-    this.http.get(this.rootURL + '/Items').toPromise().then(res => this.list = res as ItemDetail[])
-  }
+ 
 
   refreshCategories(){
     this.http.get(this.rootURL + '/Categories').toPromise().then(res => this.categoriesList = res as CategoryDetail[]);
@@ -72,7 +74,11 @@ export class ItemDetailService {
 
   getAllArticles() {
     return All_ARTICLES;
-}
+  }
+
+  refreshList(){
+    this.http.get(this.rootURL + '/Items').toPromise().then(res => this.list = res as ItemDetail[])
+  }
 
 
 

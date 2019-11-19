@@ -33,6 +33,10 @@ export class ProductsListComponent implements OnInit {
   displayedColumns: string[] = ['ItemID', 'ItemName', 'ItemDescription'];
     dataSource = new MatTableDataSource(this.service.getAllArticles());
 
+  applyFilter(filterValue: string) {
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+  }
+
   ngOnInit() {
     this.dataSource.sort = this.sort;
     this.dataSource.paginator = this.paginator;

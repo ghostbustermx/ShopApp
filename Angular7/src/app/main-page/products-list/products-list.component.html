@@ -1,5 +1,8 @@
-<input type="text" class="form-control" placeholder="Search..." [(ngModel)]="itName" (input)="Search()">
+<!--<input type="text" class="form-control" placeholder="Search..." [(ngModel)]="itName" (input)="Search()">-->
 
+<mat-form-field>
+  <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+</mat-form-field>
 
 <div class="mat-elevation-z8">
     <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
