@@ -83,7 +83,7 @@ export class CartComponent implements OnInit {
   }
 
   updateQuantity(quantity) {
-    this.itemService.formData.ItemQuantity -= quantity;
+    //this.itemService.formData.ItemQuantity -= quantity;   /***gman change */
     this.itemService.putItemDetail();
   }
 

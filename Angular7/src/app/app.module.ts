@@ -47,7 +47,7 @@ import { ProductDetailsComponent } from './main-page/product-details/product-det
 import { NgPipesModule } from 'ngx-pipes';
 import { CartComponent } from './cart/cart.component';
 import { OrderComponent } from './order/order.component';
-import { MatTableModule, MatSortHeader, MatPaginatorModule, MatPaginator, MatSortModule } from '@angular/material';
+import { MatTableModule, MatSortHeader, MatPaginatorModule, MatPaginator, MatSortModule, MatInputModule, MatProgressSpinnerModule } from '@angular/material';
 import { CategoriesListComponent } from './categories-list/categories-list.component';
 import { ListFromCategoryComponent } from './list-from-category/list-from-category.component';
 import { OrderHistoryComponent } from './order-history/order-history.component';
@@ -101,9 +101,11 @@ import { OrderHistoryComponent } from './order-history/order-history.component';
       progressBar: true
     }),
     FormsModule,
+    MatInputModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatProgressSpinnerModule
   ],
   providers:
     [UserService, {

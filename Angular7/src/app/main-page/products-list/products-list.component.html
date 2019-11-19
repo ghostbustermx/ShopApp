@@ -1,24 +1,28 @@
 <input type="text" class="form-control" placeholder="Search..." [(ngModel)]="itName" (input)="Search()">
-<table matSort (matSortChange)="sortData($event)" class="table table-hover">
 
-  <th>Picture</th>
-  <th mat-sort-header="ItemName">Name</th>
-  <th mat-sort-header="ItemBrand">Brand</th>
-  <th mat-sort-header="ItemPrice">Price</th>
-  <!-- <tr *ngIf="!sortData; then thenBlock; else elseBlock"> -->
-        <tr *ngFor="let id of service.list">
-            <img (click)="goToDetails(id.ItemName)" [src]="id.ItemImage" style="width: 100px; height: 70px;">
-            <td (click)="goToDetails(id.ItemName)">{{id.ItemName}}</td>
-            <td (click)="goToDetails(id.ItemName)">{{id.BrandName}}</td>
-            <td (click)="goToDetails(id.ItemName)">{{id.ItemPrice}}$</td>
-          </tr>
-         <!-- <ngb-pagination *ngIf="showPagination" [collectionSize]="totalItems" [(page)]="page"
-            (pageChange)="loadPage($event)"></ngb-pagination>-->
-            
-        <!-- <tr #elseBlock *ngFor="let id of service.list" >
-            <img (click)="goToDetails(id.ItemName)" [src]="id.ItemImage" style="width: 50px; height: 50px;">
-            <td (click)="goToDetails(id.ItemName)">{{id.ItemName}}</td>
-            <td (click)="goToDetails(id.ItemName)">{{id.ItemPrice}}</td>
-            <td>{{id.ItemID}}</td>
-          </tr> -->
-</table>
+
+<div class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+      <!-- ItemID Column -->
+      <ng-container matColumnDef="ItemID">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Item ID. </th>
+        <td mat-cell *matCellDef="let element"> {{element.ItemID}} </td>
+      </ng-container>
+    
+      <!-- ItemName Column -->
+      <ng-container matColumnDef="ItemName">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Item Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.ItemName}} </td>
+      </ng-container>
+    
+      <!-- ItemDescription Column -->
+      <ng-container matColumnDef="ItemDescription">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Item Descripcion </th>
+        <td mat-cell *matCellDef="let element"> {{element.ItemDescription}} </td>
+      </ng-container>
+    
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+    <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+  </div>

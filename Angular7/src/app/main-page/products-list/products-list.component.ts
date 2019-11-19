@@ -5,7 +5,8 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
 import { ProductDetailService } from 'src/app/shared/product-detail.service';
 import { RouterModule, Router } from '@angular/router';
-import { Sort, MatSort, MatPaginator } from '@angular/material';
+import { Sort, MatSort, MatPaginator, MatTableDataSource } from '@angular/material';
+
 
 @Component({
   selector: 'app-products-list',
@@ -14,6 +15,7 @@ import { Sort, MatSort, MatPaginator } from '@angular/material';
 })
 export class ProductsListComponent implements OnInit {
   @ViewChild(MatSort) sort: MatSort
+  @ViewChild(MatPaginator) paginator: MatPaginator
   public specifiedItem: ProductDetail[];
   sortedData: ItemDetail[];
   itName: string;
@@ -28,9 +30,12 @@ export class ProductsListComponent implements OnInit {
 
   }
 
+  displayedColumns: string[] = ['ItemID', 'ItemName', 'ItemDescription'];
+    dataSource = new MatTableDataSource(this.service.getAllArticles());
+
   ngOnInit() {
-    this.sortedData = this.service.list;
-    this.service.refreshList();
+    this.dataSource.sort = this.sort;
+    this.dataSource.paginator = this.paginator;
     console.log(this.sortedData)
   }
 
@@ -43,7 +48,9 @@ export class ProductsListComponent implements OnInit {
     // console.log(this.productService.getItemById(id));
   }
 
-  sortData(sort: Sort) {
+
+  /***gman change */
+  /*sortData(sort: Sort) {
     const data = this.service.list.slice();
     if (!sort.active || sort.direction === '') {
       this.service.list = data;
@@ -59,7 +66,7 @@ export class ProductsListComponent implements OnInit {
         default: return 0;
       }
     });
-  }
+  }*/
 
   compare(a: number | string, b: number | string, isAsc: boolean) {
     return (a < b ? -1 : 1) * (isAsc ? 1 : -1);
