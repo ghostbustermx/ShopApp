@@ -156,5 +156,11 @@ export class CartComponent implements OnInit {
     formatNumber(this.amountToPay, 'decimal');
   }
 
+  getRole(){
+    var payLoad = JSON.parse(window.atob(localStorage.getItem('token').split('.')[1]));
+    var userRole = payLoad.role;
+    return userRole;
+  }
+
 
 }

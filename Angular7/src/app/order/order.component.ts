@@ -19,9 +19,9 @@ export class OrderComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    console.log("cart przed parsem" + this.cartArray)
+    console.log("cart prized parse" + this.cartArray)
     this.cartArray = JSON.parse(localStorage.getItem('itemsFromCartArray'));
-    console.log("cart po parsie" + this.cartArray)
+    console.log("cart to parse" + this.cartArray)
     if (this.cartArray != null) {
       this.cartArray.forEach(product => {
         console.log("product" + product.quantity);

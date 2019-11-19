@@ -24,7 +24,7 @@
       <p *ngIf="cartArray">To pay: {{this.amountToPay | number:'1.2-2'}}$</p>
       <h1 *ngIf="!cartArray" class="text-center">Cart is empty</h1>
     <button *ngIf="cartArray" class="btn btn-danger" (click)="clearCart()">Clear cart</button>
-      <button id="showFormButton" class="btn btn-info float-right">Order</button>
+      <button *ngIf="this.getRole()!='Customer'" id="showFormButton" class="btn btn-info float-right">Order</button>
 
     <form id="dataFormInOrder" #form="ngForm" autocomplete="off" (submit)="orderItems(form)">
       <div class="form-group">
