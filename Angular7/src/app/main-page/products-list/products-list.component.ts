@@ -14,11 +14,13 @@ import { Sort, MatSort, MatPaginator, MatTableDataSource } from '@angular/materi
   styles: []
 })
 export class ProductsListComponent implements OnInit {
-  @ViewChild(MatSort) sort: MatSort
-  @ViewChild(MatPaginator) paginator: MatPaginator
+
+  @ViewChild(MatSort) sort: MatSort;
+  @ViewChild(MatPaginator) paginator: MatPaginator;
   public specifiedItem: ProductDetail[];
   sortedData: ItemDetail[];
   itName: string;
+  items: ItemDetail[];
 
   constructor(
     public service: ItemDetailService,
@@ -31,16 +33,21 @@ export class ProductsListComponent implements OnInit {
   }
 
   displayedColumns: string[] = ['ItemID', 'ItemName', 'ItemDescription'];
-    dataSource = new MatTableDataSource(this.service.getAllArticles());
+  dataSource = new MatTableDataSource([]);
+    //dataSource: MatTableDataSource<ItemDetail>; 
 
   applyFilter(filterValue: string) {
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
-  ngOnInit() {
+  async ngOnInit() {
     this.dataSource.sort = this.sort;
     this.dataSource.paginator = this.paginator;
     console.log(this.sortedData)
+
+    this.items =  await this.service.getItemList();
+    this.dataSource = new MatTableDataSource(this.items);
+
   }
 
   goToDetails(name: string){

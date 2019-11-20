@@ -2,27 +2,28 @@ import { CategoryDetail } from 'src/app/shared/category-detail.model';
 import { HttpClient } from '@angular/common/http';
 import { ItemDetail } from './item-detail.model';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
 
 const All_ARTICLES: ItemDetail[] = [
-  {ItemID: 1, ItemName: 'Angular 2 Tutorial', ItemDescription: 'Angular'},
-  {ItemID: 2, ItemName: 'Angular 6 Tutorial', ItemDescription: 'Angular'},
-  {ItemID: 3, ItemName: 'Spring MVC tutorial', ItemDescription: 'Spring'},
-  {ItemID: 4, ItemName: 'Spring Boot tutorial', ItemDescription: 'Spring'},
-  {ItemID: 5, ItemName: 'FreeMarker Tutorial', ItemDescription: 'FreeMarker'},
-  {ItemID: 6, ItemName: 'Thymeleaf Tutorial', ItemDescription: 'Thymeleaf'},
-  {ItemID: 7, ItemName: 'Java 8 Tutorial', ItemDescription: 'Java'},
-  {ItemID: 8, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
-  {ItemID: 9, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
-  {ItemID: 10, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
-  {ItemID: 11, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
-  {ItemID: 12, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
-  {ItemID: 13, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
-  {ItemID: 14, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
-  {ItemID: 15, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
-  {ItemID: 16, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
-  {ItemID: 17, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'},
-  {ItemID: 18, ItemName: 'Java 9 Tutorial', ItemDescription: 'Java'}
+  {ItemID: 1, ItemName: 'Angular 2' , ItemDescription: 'Angular'},
+  {ItemID: 2, ItemName: 'Angular 6 ', ItemDescription: 'Angular'},
+  {ItemID: 3, ItemName: 'Spring MVC ', ItemDescription: 'Spring'},
+  {ItemID: 4, ItemName: 'Spring Boot ', ItemDescription: 'Spring'},
+  {ItemID: 5, ItemName: 'FreeMarker', ItemDescription: 'FreeMarker'},
+  {ItemID: 6, ItemName: 'Thymeleaf', ItemDescription: 'Thymeleaf'},
+  {ItemID: 7, ItemName: 'Java 8', ItemDescription: 'Java'},
+  {ItemID: 8, ItemName: 'Java 9', ItemDescription: 'Java'},
+  {ItemID: 9, ItemName: 'Java 9', ItemDescription: 'Java'},
+  {ItemID: 10, ItemName: 'Java 9', ItemDescription: 'Java'},
+  {ItemID: 11, ItemName: 'Java 9', ItemDescription: 'Java'},
+  {ItemID: 12, ItemName: 'Java 9', ItemDescription: 'Java'},
+  {ItemID: 13, ItemName: 'Java 9', ItemDescription: 'Java'},
+  {ItemID: 14, ItemName: 'Java 9', ItemDescription: 'Java'},
+  {ItemID: 15, ItemName: 'Java 9', ItemDescription: 'Java'},
+  {ItemID: 16, ItemName: 'Java 9', ItemDescription: 'Java'},
+  {ItemID: 17, ItemName: 'Java 9', ItemDescription: 'Java'},
+  {ItemID: 18, ItemName: 'Java 9', ItemDescription: 'Java'}
 ];
 
 @Injectable({
@@ -34,9 +35,12 @@ export class ItemDetailService {
   list: ItemDetail[];
   categoriesList: CategoryDetail[];
 
-  constructor(
-    private http: HttpClient
-  ) { }
+  constructor(private http: HttpClient) { }
+
+  AllItems(): Observable<ItemDetail[]> {  
+    return this.http.get<ItemDetail[]>(this.rootURL + 'api/Items')  
+  }
+
 
   getItemById(id){
     return this.http.get(this.rootURL+'/Items/'+id).toPromise();
@@ -46,8 +50,8 @@ export class ItemDetailService {
     return this.http.get(this.rootURL+'/Items/category/'+name).toPromise().then(res => this.list = res as ItemDetail[]);
   }
 
-  getItemList(){
-    return this.http.get(this.rootURL+'/Items').toPromise();
+  getItemList(): Promise<ItemDetail[]>{
+    return this.http.get<ItemDetail[]>(this.rootURL+'/Items').toPromise();
    }
 
   postItemDetail(){
