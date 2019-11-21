@@ -32,7 +32,7 @@ export class ProductsListComponent implements OnInit {
 
   }
 
-  displayedColumns: string[] = ['ItemID', 'ItemName', 'ItemDescription'];
+  displayedColumns: string[] = ['ItemID', 'ItemName', 'ItemDescription', 'ItemImage'];
   dataSource = new MatTableDataSource([]);
     //dataSource: MatTableDataSource<ItemDetail>; 
 

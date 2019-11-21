@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 
-const All_ARTICLES: ItemDetail[] = [
+/*const All_ARTICLES: ItemDetail[] = [
   {ItemID: 1, ItemName: 'Angular 2' , ItemDescription: 'Angular'},
   {ItemID: 2, ItemName: 'Angular 6 ', ItemDescription: 'Angular'},
   {ItemID: 3, ItemName: 'Spring MVC ', ItemDescription: 'Spring'},
@@ -24,7 +24,7 @@ const All_ARTICLES: ItemDetail[] = [
   {ItemID: 16, ItemName: 'Java 9', ItemDescription: 'Java'},
   {ItemID: 17, ItemName: 'Java 9', ItemDescription: 'Java'},
   {ItemID: 18, ItemName: 'Java 9', ItemDescription: 'Java'}
-];
+];*/
 
 @Injectable({
   providedIn: 'root'
@@ -76,9 +76,9 @@ export class ItemDetailService {
     this.http.get(this.rootURL+'Items/details/'+name).toPromise().then(res => this.list = res as ItemDetail[])
   }
 
-  getAllArticles() {
+  /*getAllArticles() {
     return All_ARTICLES;
-  }
+  }*/
 
   refreshList(){
     this.http.get(this.rootURL + '/Items').toPromise().then(res => this.list = res as ItemDetail[])

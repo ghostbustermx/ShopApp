@@ -7,7 +7,7 @@
 }
 
 table tr:hover{
-  cursor: pointer;
+  /*cursor: pointer;*/
   width: 100%;
 }
 
@@ -104,4 +104,16 @@ button[type=submit].btn{
   border-radius: 20px;
   background-color: #000000;
   color: white;
+}
+
+.itemsList-Container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  min-width: 300px;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
 }

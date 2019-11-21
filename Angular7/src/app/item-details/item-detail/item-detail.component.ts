@@ -61,9 +61,9 @@ export class ItemDetailComponent implements OnInit {
     this.service.formData = {
       ItemID: 0,
       ItemName: '',
-      ItemDescription: ''
-      /*ItemImage: '',
-      ItemPrice: 0,
+      ItemDescription: '',
+      ItemImage: ''
+      /*ItemPrice: 0,
       ItemQuantity: 0,
       ItemRaiting: 0,
       CategoryID: 0,
@@ -133,7 +133,7 @@ export class ItemDetailComponent implements OnInit {
     if (document.activeElement.getAttribute('Name') == 'firstSubmit') {
       // console.log("piewszy");
       if (this.service.formData.ItemID == 0) {
-        //this.insertRecord(form);   /* gman change */
+        this.insertRecord(form);   /* gman change */
         // console.log(form);
         // console.log("new inserted");
       } else {
@@ -150,8 +150,8 @@ export class ItemDetailComponent implements OnInit {
   }
 
   ///  gman change //////////////////////////
-  /*insertRecord(form: NgForm){
-    this.service.formData.ItemRaiting=0;
+  insertRecord(form: NgForm){
+    //this.service.formData.ItemRaiting=0;
     this.service.postItemDetail().subscribe(
       res => {
         this.resetForm();
@@ -162,10 +162,10 @@ export class ItemDetailComponent implements OnInit {
         console.log(err);
       }
     );
-  }*/
+  }
 
   AddVariant(form: NgForm){
-    // zerowanie id, bo inaczej chce nam wpisać kolejny wiersz z tym samym id
+
     this.service.formData.ItemID = 0;
     console.log(this.service.formData);
     this.service.postItemDetail().subscribe(
