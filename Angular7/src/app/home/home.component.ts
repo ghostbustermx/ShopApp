@@ -27,6 +27,7 @@ export class HomeComponent implements OnInit {
 
     this.service.getUserProfile().subscribe(
       res => {
+        console.log(res);
         this.userDetails = res;
       },
       err => {
@@ -36,7 +37,7 @@ export class HomeComponent implements OnInit {
 
 
     this.cartArray = JSON.parse(localStorage.getItem('itemsFromCartArray'));
-    console.log("cart po parsie" + this.cartArray)
+    console.log("cart po parse" + this.cartArray)
     if (this.cartArray != null) {
       this.cartArray.forEach(product => {
         console.log("product" + product.id);
@@ -50,7 +51,16 @@ export class HomeComponent implements OnInit {
   getRole(){
     var payLoad = JSON.parse(window.atob(localStorage.getItem('token').split('.')[1]));
     var userRole = payLoad.role;
-    return userRole;
+
+    if (userRole != null){
+      console.log(userRole);
+      return userRole;
+    }/*else{     
+      userRole = ['Registered'];
+      console.log(userRole);
+      return userRole;
+    }*/
+    
   }
 
 

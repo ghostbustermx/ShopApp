@@ -67,6 +67,12 @@ namespace ShopApp.Controllers
         public async Task<IActionResult> Login(LoginModel model)
         {
             var user = await _userManager.FindByNameAsync(model.UserName);
+
+            if (user == null)
+            {
+                return BadRequest("Invalid client request API");
+            }
+
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
             {
                 //get user role

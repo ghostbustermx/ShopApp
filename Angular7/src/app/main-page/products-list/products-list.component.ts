@@ -36,9 +36,18 @@ export class ProductsListComponent implements OnInit {
   dataSource = new MatTableDataSource([]);
     //dataSource: MatTableDataSource<ItemDetail>; 
 
-  applyFilter(filterValue: string) {
+  /*applyFilter(filterValue: string) {
     this.dataSource.filter = filterValue.trim().toLowerCase();
+  }*/
+
+  async applyFilter(filterValue: string) {
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+
+    if (this.dataSource.paginator) {
+      this.dataSource.paginator.firstPage();
+    }
   }
+
 
   async ngOnInit() {
     this.dataSource.sort = this.sort;

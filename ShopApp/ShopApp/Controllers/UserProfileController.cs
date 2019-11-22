@@ -86,5 +86,13 @@ namespace ShopApp.Controllers
         {
             return "Web method for Customer";
         }
+
+        [HttpGet]
+        [Authorize(Roles = "Unregistered")]
+        [Route("ForUnregisteredr")]
+        public string GetForUnregistered()
+        {
+            return "Web method for Unregistered";
+        }
     }
 }

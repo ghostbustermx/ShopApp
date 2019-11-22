@@ -38,4 +38,9 @@ export class LoginComponent implements OnInit {
       }
     );
   }
+
+  signInAnonymously(){
+    alert('Unregistered');
+  }
+  
 }
