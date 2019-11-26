@@ -1,0 +1,98 @@
+D:\cSharp projects\Shop\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.deps.json
+D:\cSharp projects\Shop\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.json
+D:\cSharp projects\Shop\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.dev.json
+D:\cSharp projects\Shop\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.dll
+D:\cSharp projects\Shop\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.pdb
+D:\cSharp projects\Shop\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csproj.CoreCompileInputs.cache
+D:\cSharp projects\Shop\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cache
+D:\cSharp projects\Shop\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cs
+D:\cSharp projects\Shop\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfoInputs.cache
+D:\cSharp projects\Shop\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfo.cs
+D:\cSharp projects\Shop\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorTargetAssemblyInfo.cache
+D:\cSharp projects\Shop\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.dll
+D:\cSharp projects\Shop\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.pdb
+D:\cSharp projects\Shop\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csprojAssemblyReference.cache
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.deps.json
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.json
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.dev.json
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.dll
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.pdb
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csprojAssemblyReference.cache
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csproj.CoreCompileInputs.cache
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cache
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cs
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfoInputs.cache
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfo.cs
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorTargetAssemblyInfo.cache
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.dll
+Z:\Shop\Shop-dependabot-npm_and_yarn-Angular7-lodash-4.17.15\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.pdb
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.deps.json
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.json
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.dev.json
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.dll
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.pdb
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csprojAssemblyReference.cache
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cache
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cs
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfoInputs.cache
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfo.cs
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorTargetAssemblyInfo.cache
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.dll
+C:\Users\Administrador\Downloads\GIFTSHOP\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.pdb
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.deps.json
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.json
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.dev.json
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.dll
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.pdb
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csprojAssemblyReference.cache
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cache
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cs
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfoInputs.cache
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfo.cs
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorTargetAssemblyInfo.cache
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.dll
+C:\Users\Administrador\Downloads\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.pdb
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.deps.json
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.json
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.dev.json
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.dll
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.pdb
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csprojAssemblyReference.cache
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cache
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cs
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfoInputs.cache
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfo.cs
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorTargetAssemblyInfo.cache
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.dll
+C:\Users\Administrador\Downloads\ShopApp1\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.pdb
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.deps.json
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.json
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.dev.json
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.dll
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.pdb
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csprojAssemblyReference.cache
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csproj.CoreCompileInputs.cache
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cache
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cs
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfoInputs.cache
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfo.cs
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorTargetAssemblyInfo.cache
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.dll
+C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.pdb
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.deps.json
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.json
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.dev.json
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.dll
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.pdb
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csprojAssemblyReference.cache
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cache
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cs
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfoInputs.cache
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfo.cs
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorTargetAssemblyInfo.cache
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.dll
+C:\Users\Administrador\Downloads\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp-ecfc42eb69e9db27bd8c517f1085bfecca633b73\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.pdb

@@ -1,0 +1,71 @@
+<app-home>
+  this.getQuantity();
+</app-home>
+<div class="jumbtron">
+  <!-- <h1 class="display-4 text-center">dsad</h1> -->
+  <hr>
+  <div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-3">
+        <tr *ngFor="let id of productService.list">
+      <img [src]="id.ItemImage" style="width: 430px; height: 300px;">
+
+    </div>
+    <div class="text-right col-md-5">
+
+        <table *ngFor="let id of productService.list">
+        <tr><h3>{{id.ItemName}}</h3></tr>
+        <tr>Available: {{id.ItemQuantity}}</tr>
+        <tr>Price: {{id.ItemPrice}}$</tr>
+        <tr>Raiting: {{id.ItemRaiting}}</tr>
+        <tr>Color: {{id.ColorName}}</tr>
+        <tr>Size: {{id.SizeName}}</tr>
+        <tr>Brand: {{id.BrandName}}</tr>
+        <tr>Sex: {{id.SexName}}</tr>
+        <div class="float-right form-group col-lg-7">
+        <div class=" input-group pull-right">
+          <div class="input-group-prepend">
+            <div class="col-xs-2 input-group-text bg-white">
+                <i class="fas fa-shopping-basket" [class.green-icon]="ItemQuantity.valid" [class.red-icon]="ItemQuantity.invalid && ItemQuantity.touched"></i>
+            </div>
+          </div>
+          <input id="addtocartinput"  required pattern="[0-9]+" name="ItemQuantity" #ItemQuantity="ngModel"
+          [(ngModel)]="this.QuantityToCart"
+          class=" form-control " pattern="[1-9]+"
+          placeholder="Quantity" required minlength="1" maxlength="7">
+        </div>
+      </div>
+        <button [disabled]="!ItemQuantity.valid" class="btn btn-success text-white" (click)="addToCart(id)">Add to cart</button>
+        <!-- <select name="CategoryID" #CategoryID="ngModel" [(ngModel)]="productService.list" class="form-control" required>
+            <option *ngFor="let item of productService.list | groupBy:'item.ColorName' | pairs" value="{{item.CategoryID}}">{{item.ColorName}} </option>
+        </select> -->
+        </table>
+
+    </div>
+    <div class="col-md-2">
+<br/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <!-- <app-item-detail></app-item-detail> -->
+    </div>
+    <div class="col-md-5">
+        <tr *ngFor="let id of productService.list">
+        <td>{{id.ItemDescription}}</td>
+
+    </div>
+
+    <div class="col-md-2">
+      <!-- <app-item-detail-list></app-item-detail-list> -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8"><button class="float-left btn btn-info" (click)="backToShop()">Back</button></div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+

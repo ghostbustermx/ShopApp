@@ -1,0 +1,46 @@
+<!--<input type="text" class="form-control" placeholder="Search..." [(ngModel)]="itName" (input)="Search()">-->
+
+<mat-form-field>
+  <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+</mat-form-field>
+
+<div class="itemsList-Container mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+     
+
+        <!--   ItemImage column -->
+      <ng-container matColumnDef="ItemImage">
+           <th mat-header-cell *matHeaderCellDef> Item Image </th>
+           <td mat-cell *matCellDef="let element"> <img [src]="element.ItemImage" style="width: 100px; height: 70px;" (click)="goToDetails(element.ItemName)" /> </td>
+      </ng-container>
+
+
+      <!-- ItemID Column -->
+      <ng-container matColumnDef="ItemID">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Item ID. </th>
+        <td mat-cell *matCellDef="let element"> {{element.ItemID}} </td>
+      </ng-container>
+    
+      <!-- ItemName Column -->
+      <ng-container matColumnDef="ItemName">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Item Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.ItemName}} </td>
+      </ng-container>
+    
+      <!-- ItemDescription Column -->
+      <ng-container matColumnDef="ItemDescription">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Item Descripcion </th>
+        <td mat-cell *matCellDef="let element"> {{element.ItemDescription}} </td>
+      </ng-container>
+    
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+      <!--<mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="{hovered: row.hovered, highlighted: row.highlighted}"
+     (click)="row.highlighted = !row.highlighted" (mouseover)="row.hovered = true" (mouseout)="row.hovered = false"></mat-row>-->
+
+
+    </table>
+    <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+  </div>
