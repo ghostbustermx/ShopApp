@@ -82,3 +82,17 @@ C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug
 C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorTargetAssemblyInfo.cache
 C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.dll
 C:\Users\ggvillegas\Downloads\ShopApp\ShopApp-develop1\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.pdb
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.deps.json
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.json
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.runtimeconfig.dev.json
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.dll
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\bin\Debug\netcoreapp2.2\ShopApp.pdb
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csprojAssemblyReference.cache
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.csproj.CoreCompileInputs.cache
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cache
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorAssemblyInfo.cs
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfoInputs.cache
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.AssemblyInfo.cs
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.RazorTargetAssemblyInfo.cache
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.dll
+C:\Users\ggvillegas\Documents\GitHub\ShopApp\ShopApp\ShopApp\obj\Debug\netcoreapp2.2\ShopApp.pdb

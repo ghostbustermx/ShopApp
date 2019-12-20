@@ -12947,11 +12947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ggvillegas\\Downloads\\ShopApp\\ShopApp-develop1\\ShopApp\\ShopApp\\ShopApp.csproj",
+      "projectUniqueName": "C:\\Users\\ggvillegas\\Documents\\GitHub\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj",
       "projectName": "ShopApp",
-      "projectPath": "C:\\Users\\ggvillegas\\Downloads\\ShopApp\\ShopApp-develop1\\ShopApp\\ShopApp\\ShopApp.csproj",
+      "projectPath": "C:\\Users\\ggvillegas\\Documents\\GitHub\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj",
       "packagesPath": "C:\\Users\\ggvillegas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ggvillegas\\Downloads\\ShopApp\\ShopApp-develop1\\ShopApp\\ShopApp\\obj\\",
+      "outputPath": "C:\\Users\\ggvillegas\\Documents\\GitHub\\ShopApp\\ShopApp\\ShopApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
